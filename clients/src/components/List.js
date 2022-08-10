@@ -1,5 +1,6 @@
-
-
+import styled from "styled-components";
+// import Navbar from "./Navbar";
+// import Header from "./Header";
 
 
 
@@ -13,7 +14,12 @@ const List = ()=>{
 
 
 
-        <div>List</div>
+        <div>
+            {/* <Navbar/>
+            <Header type="list"/> */}
+            
+            </div>
+        
     );
 }
 
