@@ -7,15 +7,18 @@ import Header from "./components/Header";
 import Pluse from "./components/Pluse";
 import Properties from "./components/Properties";
 import Subscription from "./components/Subscription";
+
+
+
 const App=()=> {
 
   return (
     <BrowserRouter>
     <Navbar/>
-    <Header/>
-    {/* <Header type="list"/> */}
+    {/* <Header/> */}
+    <Header type="list"/>
     <Pluse/>
-    <Properties/>
+    {/* <Properties/> */}
     <Subscription/>
       <Routes>
         <Route path="/" element={<Home/>}/>

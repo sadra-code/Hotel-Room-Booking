@@ -8,11 +8,11 @@ const Home = ()=>{
    <>
    <HoContainer>
 
-   <Pluse/>
+   {/* <Pluse/> */}
 
    <HoTtle>Search by property name</HoTtle>
 
-   <Properties/>
+   {/* <Properties/> */}
 
 
 

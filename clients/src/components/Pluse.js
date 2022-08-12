@@ -14,7 +14,7 @@ const Pluse = () => {
              
               <PlContainer> 
                  
-                 <Img src="https://frontier-canada.co.uk/wp-content/uploads/2018/09/quebec-fairmontchateaufrontenac-quebeccity-exterior800x800.jpg" alt="quebec" />
+                 <Img1  src="https://frontier-canada.co.uk/wp-content/uploads/2018/09/quebec-fairmontchateaufrontenac-quebeccity-exterior800x800.jpg" alt="quebec"  />
 
               <PlTtle> 
                 
@@ -26,7 +26,7 @@ const Pluse = () => {
              </PlContainer>
 
            
-           <PlContainer>
+           {/* <PlContainer>
               
              <Img src="https://st.depositphotos.com/1007970/1223/i/950/depositphotos_12236509-stock-photo-barcelona-spain-december-14-la.jpg" alt="Barcelona"/>
 
@@ -49,23 +49,10 @@ const Pluse = () => {
                <h1>Isfahan</h1>
                <h2> X properties</h2>
                  
-             </PlTtle>  
+             </PlTtle>   */}
  
-          </PlContainer>
+          {/* </PlContainer> */}
 
-      
-          {/* <PlContainer> */}
-{/*               
-              <Img src="https://wallpaperaccess.com/full/758246.jpg" alt="France"/>
- 
-             <PlTtle> /featured title/
-                 
-               <h1>France</h1>
-               <h2> X properties</h2>
-                 
-             </PlTtle>  
- 
-          </PlContainer> */}
  
 </PlWrapper>
 
@@ -102,14 +89,18 @@ const PlContainer = styled.div`
 const PlTtle = styled.div`
 
     position: absolute;
-    bottom: 20px ;
+    bottom: -100px ;
     left: 20px`;
 
 
 
 
 
-const Img = styled.img`
+const Img1 = styled.img`
      
-      width: 100% ;
-      object-fit: cover`;
+      margin-bottom: -200; 
+      height: 300px;
+      width: 300px`; 
+      
+      /* width: 100% ; */
+      /* object-fit: cover/*/
